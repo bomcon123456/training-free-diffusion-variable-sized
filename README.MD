@@ -39,7 +39,7 @@ python trainingfreediffuser.py --help
 # Example:
 ## With reweighting scheme
 python trainingfreediffuser.py "A black cat sitting on top of a pot for a plant." --wh 768 -n 8 -s 0 -e
-## With reweighting scheme
+## Without reweighting scheme (Normal sampling)
 python trainingfreediffuser.py "A black cat sitting on top of a pot for a plant." --wh 768 -n 8 -s 0
 ```
 
